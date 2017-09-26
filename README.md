@@ -1,171 +1,46 @@
-# [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/)
+### About
+The CenTex GIS website is built using the [Jekyll](http://jekyllrb.com/docs/home/) static site generator. The theme is based on a fork of the [minimal-mistakes](https://github.com/mmistakes/minimal-mistakes) Jekyll theme. The site is hosted directly from this GitHub repo and includes a CNAME file in the root directory for the custom domain [centexgis.com](http://centexgis.com).
 
-[![GitHub release](https://img.shields.io/gem/v/minimal-mistakes-jekyll.svg)](https://github.com/mmistakes/minimal-mistakes/releases) [![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/LICENSE.txt)
+------------------------
+### Create/Add New Posts
+Posts to the centexgis.com site are written in [markdown](https://daringfireball.net/projects/markdown/syntax) format which is intended to be an easy-to-read and easy-to-write syntax for text-to-HTML. Many blogs on the web utilize markdown or similar syntax to speed up the publishing process since HTML can be cumbersome to read and write. The following are steps to add a new job, event, or news post to centexgis.com.
 
-Minimal Mistakes is a flexible two-column Jekyll theme. Perfect for hosting your personal site, blog, or portfolio on GitHub or self-hosting on your own server. As the name implies --- styling is purposely minimalistic to be enhanced and customized by you :smile:.
+1. Login to [https://github.com](https://github.com) and navigate to the centexgis organization account – if you do not have a github account, create one and then request to be added as a member to centexgis.
 
-:sparkles: See what's new in the [CHANGELOG](CHANGELOG.md).
+2. The repository (repo) for the site content is called centexgis.github.io. Navigate to that repo by clicking the repo name on the centexgis account main page or [click here](https://github.com/centexgis/centexgis.github.io).
 
-[![Minimal Mistakes live preview][2]][1]
+3. The existing site posts are located in the `_posts` folder in the `centexgis.github.io` repo. Click the `_posts` folder. Inside you will see the category folders, each consisting of markdown formatted posts. For example, in the jobs folder you should see all the jobs that are currently posted on the centexgis.com site.
 
-[1]: https://mmistakes.github.io/minimal-mistakes/
-[2]: screenshot.png (live preview)
+4. To add a new post, open your [text editor](https://atom.io/) of choice. Save your new text file in the format `yyyymm-dd-name-of-post-like-this.md` where `yyyy` is the current four-digit year, `mm` is the two-digit month, and `dd` is the two digit day, followed by a name to describe the post, and then the `.md` or `.markdown` file extension.
 
-![layout examples](screenshot-layouts.png)
+5. At the top of your new post, make sure to include the proper header info (this is called [front matter](https://jekyllrb.com/docs/frontmatter/)) necessary for the post to be recognized by the Jekyll site. Include the following:
+![front matter](assets/img/front-matter.jpg)
 
-## Notable Features
+6. Below the required header, you can begin your post content formatted in markdown. If you do
+not require any special formatting, hyperlinks, images, etc, you can always just type plain text. For markdown syntax reference, please refer to [daringfireball.net](https://daringfireball.net/projects/markdown/) or [github guides](https://guides.github.com/features/mastering-markdown/) or any other
+markdown reference you may find useful.
+ Here is an example of a plain text job posting (no links, images, etc).
+![markdown example](assets/img/md_example.jpg)
 
-- Bundled as a "theme gem" for easier install/upgrading.
-- Compatible with GitHub Pages.
-- Support for Jekyll's built-in Sass/SCSS preprocessor.
-- Seven different skins (color variations).
-- Several responsive layout options (single, archive index, splash, and paginated home page).
-- Optimized for search engines with support for [Twitter Cards](https://dev.twitter.com/cards/overview) and [Open Graph](http://ogp.me/) data
-- Optional [header images](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#headers), [custom sidebars](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#sidebars), [table of contents](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#table-of-contents), [galleries](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#gallery), related posts, [breadcrumb links](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#breadcrumb-navigation-beta), [navigation lists](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#navigation-list), and more.
-- Commenting support (powered by [Disqus](https://disqus.com/), [Facebook](https://developers.facebook.com/docs/plugins/comments), Google+, [Discourse](https://www.discourse.org/), static-based via [Staticman v1](https://staticman.net/), and custom).
-- [Google Analytics](https://www.google.com/analytics/) support.
-- UI localized text in English (default), Brazilian Portuguese, Chinese, French, German, Italian, Korean, Nepali (Nepalese), Russian, Spanish, and Turkish.
+ ***Note:*** If you would like to insert an image to your post, navigate to `/assets/img/blog/` and drag and drop your new image into this directory. Reference the image in your markdown post like:
 
-## Skins (Color Variations)
+ `![Example](/assets/img/blog/example-image.jpg)`.
 
-This theme comes in seven different skins (including the default one).
+7. Once your local markdown file is complete, open your browser to the `centexgis.github.io` repo location you would like it to be posted to (ie. *centexgis.github.io/_posts/jobs/*).
 
-| `air` | `contrast` | `dark` |
-| --- | --- | --- |
-| ![air skin](https://mmistakes.github.io/minimal-mistakes/assets/images/air-skin-archive.png) | ![contrast skin](https://mmistakes.github.io/minimal-mistakes/assets/images/contrast-skin-archive.png) | ![dark skin](https://mmistakes.github.io/minimal-mistakes/assets/images/dark-skin-archive.png) |
+8. Drag your .md or .markdown file from your machine (desktop) to the GitHub location in your browser.
+![drag drop md](assets/img/drag_md.jpg)
 
-| `dirt` | `mint` | `sunrise` |
-| --- | --- | --- |
-| ![dirt skin](https://mmistakes.github.io/minimal-mistakes/assets/images/dirt-skin-archive.png) | ![mint skin](https://mmistakes.github.io/minimal-mistakes/assets/images/mint-skin-archive.png) | ![sunrise skin](https://mmistakes.github.io/minimal-mistakes/assets/images/sunrise-skin-archive.png) |
+9. Once you drop the file in the browser, the `commit` options will appear. You can choose to type a commit changes note for this commit, or you can proceed with the default ‘Add files via upload’ text. You also have an option for an extended description.
 
-## Demo Pages
+10. Make sure you are committing to the `master` branch and then `commit changes`. Your new file(s) will be processed and you should see the new post in the location you uploaded it to in the `centexgis.github.io` repo. The new post should be reflected at [centexgis.com](http://centexgis.com) within a few minutes.
+ - *if you do not see the changes, keep refreshing the web page and you should see it eventually*
 
-| Name                                        | Description                                           |
-| ------------------------------------------- | ----------------------------------------------------- |
-| [Post with Header Image][header-image-post] | A post with a large header image. |
-| [HTML Tags and Formatting Post][html-tags-post] | A variety of common markup showing how the theme styles them. |
-| [Syntax Highlighting Post][syntax-post] | Post displaying highlighted code. |
-| [Post with a Gallery][gallery-post] | A post showing several images wrapped in `<figure>` elements. |
-| [Sample Collection Page][sample-collection] | Single page from a collection. |
-| [Categories Archive][categories-archive] | Posts grouped by category. |
-| [Tags Archive][tags-archive] | Posts grouped by tag. |
-
-Additional sample posts are available under [posts archive][year-archive] on the demo site. Source files for these (and the entire demo site) can be found in [`/docs`](docs).
-
-[header-image-post]: https://mmistakes.github.io/minimal-mistakes/layout-header-image-text-readability/
-[gallery-post]: https://mmistakes.github.io/minimal-mistakes/post%20formats/post-gallery/
-[html-tags-post]: https://mmistakes.github.io/minimal-mistakes/markup/markup-html-tags-and-formatting/
-[syntax-post]: https://mmistakes.github.io/minimal-mistakes/markup-syntax-highlighting/
-[sample-collection]: https://mmistakes.github.io/minimal-mistakes/recipes/chocolate-chip-cookies/
-[categories-archive]: https://mmistakes.github.io/minimal-mistakes/categories/
-[tags-archive]: https://mmistakes.github.io/minimal-mistakes/tags/
-[year-archive]: https://mmistakes.github.io/minimal-mistakes/year-archive/
-
-## Usage
-
-For detailed instructions on how to configure, customize, add content, and more read the [theme's documentation](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/).
-
-**Note:** Gem version of the theme requires Jekyll v3.3+ and is not currently supported on [GitHub Pages](https://pages.github.com/). You can still use the theme with GitHub Pages, you'll just need to install using the old "[repo fork method](https://mmistakes.github.io/minimal-mistakes/docs/installation/)".
-
-## Quick Start
-
-Add this line to your Jekyll site's `Gemfile`:
-
-```ruby
-gem "minimal-mistakes-jekyll"
-```
-
-Add this line to your Jekyll site's `_config.yml` file:
-
-```yaml
-theme: minimal-mistakes-jekyll
-```
-
-Then run Bundler to install the theme gem and dependencies:
-
-```bash
-bundle install
-```
-
-To update the theme run `bundle update`.
-
----
-
-## Contributing
-
-Having trouble working with the theme? Found a typo in the documentation? Interested in adding a feature or [fixing a bug](https://github.com/mmistakes/minimal-mistakes/issues)? Then by all means [submit an issue](https://github.com/mmistakes/minimal-mistakes/issues/new) or [pull request](https://help.github.com/articles/using-pull-requests/). If this is your first pull request, it may be helpful to read up on the [GitHub Flow](https://guides.github.com/introduction/flow/) first.
-
-Minimal Mistakes has been designed as a base for you to customize and fit your site's unique needs. Please keep this in mind when requesting features and/or submitting pull requests. If it's not something that most people will use, I probably won't consider it. When in doubt ask. 
-
-This goes for author sidebar links and "share button" additions -- I have no intention of merging in every possibly option, the essentials are there to get you started :smile:.
-
-### Pull Requests
-
-When submitting a pull request:
-
-1. Clone the repo.
-2. Create a branch off of `master` and give it a meaningful name (e.g. `my-awesome-new-feature`) and describe the feature or fix.
-3. Open a pull request on GitHub.
-
-Theme documentation and demo pages can be found in the [`/docs`](docs) if submitting improvements, typo corrections, etc.
-
-## Development
-
-To set up your environment to develop this theme, run `bundle install`.
-
-To test the theme, run `bundle exec rake preview` and open your browser at `http://localhost:4000/test/`. This starts a Jekyll server using content in the `test/` directory. As modifications are made to the theme and test site, it will regenerate and you should see the changes in the browser after a refresh.
-
----
-
-## Credits
-
-### Creator
-
-**Michael Rose**
-
-- <https://mademistakes.com>
-- <https://twitter.com/mmistakes>
-- <https://github.com/mmistakes>
-
-### Icons + Demo Images:
-
-- [The Noun Project](https://thenounproject.com) -- Garrett Knoll, Arthur Shlain, and [tracy tam](https://thenounproject.com/tracytam)
-- [Font Awesome](http://fortawesome.github.io/Font-Awesome/)
-- [Unsplash](https://unsplash.com/)
-
-### Other:
-
-- [Jekyll](http://jekyllrb.com/)
-- [jQuery](http://jquery.com/)
-- [Susy](http://susy.oddbird.net/)
-- [Breakpoint](http://breakpoint-sass.com/)
-- [Magnific Popup](http://dimsemenov.com/plugins/magnific-popup/)
-- [FitVids.JS](http://fitvidsjs.com/)
-- Greedy Navigation - [lukejacksonn](http://codepen.io/lukejacksonn/pen/PwmwWV)
-- [jQuery Smooth Scroll](https://github.com/kswedberg/jquery-smooth-scroll)
-
----
-
-## License
-
-The MIT License (MIT)
-
-Copyright (c) 2017 Michael Rose
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+---------------------
+### Credits/Reference
+- [Daring Fireball by John Gruber](https://daringfireball.net/projects/markdown/)
+- [GitHub Guides – Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+- [Jekyll](https://jekyllrb.com)
+- [Solid Jekyll theme](http://jekyllthemes.org/themes/solid/)
+- [Blacktie.co](http://blacktie.co)
+- [Blacktie.co Solid theme](http://blacktie.co/2014/05/solid-multipurpose-theme/)

@@ -5,17 +5,17 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-minimal_mistakes_skin    : "default" # "air", "contrast", "dark", "dirt", "mint", "sunrise"
+minimal_mistakes_skin    : "dark" # "air", "contrast", "dark", "dirt", "mint", "sunrise", "default"
 
 # Site Settings
 locale                   : "en"
-title                    : "Site Title"
+title                    : "CENTEXGIS"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+name                     : "CENTEXGIS"
+description              : "CenTexGIS strives to provide the Central Texas GIS community with a forum for networking and growth. Our goal is to strengthen community bonds by bringing together public and private sector GIS professionals for knowledge sharing and support. Membership is free!"
+url                      : "https://centexgis.github.io"# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "/"# the subpath of your site, e.g. "/blog"
+repository               : "centexgis/prototype" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -79,25 +79,25 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  name             : ""
+  avatar           : "/assets/img/centex.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "A GEOGRAPHIC INFORMATION SYSTEMS USER GROUP SERVING CENTRAL TEXAS"
+  location         : "Austin, TX"
+  email            : "centexgis@gmail.com"
   uri              :
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : "/profile.php?id=100008092547753"
   foursquare       :
-  github           :
+  github           : "centexgis"
   gitlab           :
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  linkedin         : "1786489" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
@@ -244,6 +244,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
