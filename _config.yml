@@ -5,16 +5,16 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-minimal_mistakes_skin    : "dark" # "air", "contrast", "dark", "dirt", "mint", "sunrise", "default"
+minimal_mistakes_skin    : "air" # "air", "contrast", "dark", "dirt", "mint", "sunrise", "default"
 
 # Site Settings
 locale                   : "en"
 title                    : "CENTEXGIS"
 title_separator          : "-"
 name                     : "CENTEXGIS"
-description              : "CenTexGIS strives to provide the Central Texas GIS community with a forum for networking and growth. Our goal is to strengthen community bonds by bringing together public and private sector GIS professionals for knowledge sharing and support. Membership is free!"
-url                      : "https://centexgis.github.io"# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/"# the subpath of your site, e.g. "/blog"
+description              : "A Geographic Information Systems User Group Serving Central Texas. CenTexGIS strives to provide the Central Texas GIS community with a forum for networking and growth. Our goal is to strengthen community bonds by bringing together public and private sector GIS professionals for knowledge sharing and support. Membership is free!"
+url                      : "https://centexgis.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "centexgis/prototype" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
@@ -22,7 +22,7 @@ words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : centexgis # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -79,9 +79,9 @@ analytics:
 
 # Site Author
 author:
-  name             : ""
+  name             : "CENTRAL TEXAS GIS"
   avatar           : "/assets/img/centex.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "A GEOGRAPHIC INFORMATION SYSTEMS USER GROUP SERVING CENTRAL TEXAS"
+  bio              : "A Geographic Information Systems User Group Serving Central Texas"
   location         : "Austin, TX"
   email            : "centexgis@gmail.com"
   uri              :

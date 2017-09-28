@@ -4,9 +4,7 @@ title: About
 permalink: /about/
 ---
 
-### *Purpose*
-
-### CenTexGIS strives to provide the Central Texas GIS community with a forum for networking and growth. Our goal is to strengthen community bonds by bringing together public and private sector GIS professionals for knowledge sharing and support.
+## CenTexGIS strives to provide the Central Texas GIS community with a forum for networking and growth. Our goal is to strengthen community bonds by bringing together public and private sector GIS professionals for knowledge sharing and support.
 
 <table>
   <tr><br>

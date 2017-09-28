@@ -7,11 +7,11 @@ categories:
 - Events
 ---
 ![tnris georodeo](/assets/img/blog/tnris_georodeo_17.jpg)
-#### Code, Code on the Range
+### Code, Code on the Range
 
-#### Date: Friday May 19, 2017
-#### Time: 8am - 5pm
-#### Location: JJ Pickle Research Campus -
+### Date: Friday May 19, 2017
+### Time: 8am - 5pm
+### Location: JJ Pickle Research Campus -
 [10100 Burnet Road, Bldg 137, Austin, TX 78758](https://www.google.com/maps/place/J.+J.+Pickle+Research+Campus,+The+University+of+Texas+at+Austin/@30.3877436,-97.7303217,17z/data=!3m1!4b1!4m5!3m4!1s0x8644cb88892ec28d:0x397fa14bd983eafa!8m2!3d30.3877436!4d-97.728133)
 
 TNRIS invites you to Austin on May 19th, 2017, for the 5th annual GeoRodeo - a roundup of geodevelopers, coders and any professional from across the state of Texas who is looking to incorporate new ideas and creative solutions into their work.
